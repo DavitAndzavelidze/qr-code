@@ -1,0 +1,65 @@
+/***** Import Outfit font in our CSS ******/
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700");
+
+/***** Reset browser styles ******/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/***** Set font whole of all the page elements ******/
+body {
+  font-family: "Outfit", sans-serif;
+}
+
+/***** Main background ******/
+.main__container {
+  background: #f2f2f2;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/***** White background QR box ******/
+.qr__container {
+  width: 320px;
+  height: 497px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.0476518);
+  border-radius: 20px;
+}
+
+/***** QR image styles ******/
+.qr__image img {
+  width: 288px;
+  height: 288px;
+  border-radius: 10px;
+}
+
+/***** Text styles ******/
+.qr__text h3 {
+  width: 288px;
+  height: 56px;
+  margin: 24px 16px 16px 16px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  text-align: center;
+  color: #1f314f;
+}
+.qr__text p {
+  margin: 16px 32px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.1875px;
+  color: #7d889e;
+}
